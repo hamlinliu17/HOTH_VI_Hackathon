@@ -18,7 +18,7 @@ def predict(x1,x2):
     result = Result_Matrix_Prediction[0][2]
     return result
 
-def winner():
+def winner(x1,x2):
     if(predict(x1,x2) == 1):
         return x1
     elif(predict(x1,x2) == 0):
