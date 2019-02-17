@@ -5,11 +5,9 @@ def index():
     return render_template('Webapp.html')
 
 @app.route('/generate_results')
-def home_team():
+def print_s():
     home_team = request.args.get('home_team')
     return home_team
-
-
 
 
 
