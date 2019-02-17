@@ -3,8 +3,6 @@ import numpy as np
 
 footballData_18_19 = pd.read_csv("17_18.csv")
 
-footballData_18_19.info()
-
 data_columns = footballData_18_19.columns
 
 index = 0
