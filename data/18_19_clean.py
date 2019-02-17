@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-footballData_18_19 = pd.read_csv("17_18.csv")
+footballData_18_19 = pd.read_csv("18_19.csv")
 
 data_columns = footballData_18_19.columns
 
@@ -12,4 +12,4 @@ while index < len(data_columns):
     index += 1
 
 
-footballData_18_19.head()
+print(footballData_18_19.head())
