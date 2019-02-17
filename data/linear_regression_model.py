@@ -11,14 +11,17 @@ model = RandomForestClassifier(n_estimators = 100)
 model.fit(Input_Matrix_train, Result_Matrix_train)
 
 def predict(x1,x2):
-    Result_Matrix_Prediction = [[]]
+    if(x1 == x2):
+        return 0
+    #Result_Matrix_Prediction = [[]]
     Result_Matrix_Prediction = model.predict([[x1,x2]])
-    result = []
-    i = 0
-    while(i < 3):
-        result += [Result_Matrix_Prediction[0][i]]
-        i+=1
+    result = Result_Matrix_Prediction[0][2]
     return result
 
-
-print(predict(0,13))
+def winner():
+    if(predict(x1,x2) == 1):
+        return x1
+    elif(predict(x1,x2) == 0):
+        return 0
+    else:
+        return x2
