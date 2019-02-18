@@ -15,13 +15,15 @@ def predict(x1,x2):
         return 0
     #Result_Matrix_Prediction = [[]]
     Result_Matrix_Prediction = model.predict([[x1,x2]])
-    result = Result_Matrix_Prediction[0][2]
+    result = []
+    while(i < 3):
+        result += Result_Matrix_Prediction[0][i]
     return result
 
 def winner(x1,x2):
-    if(predict(x1,x2) == 1):
+    if(predict(x1,x2)[2] == 1):
         return x1
-    elif(predict(x1,x2) == 0):
+    elif(predict(x1,x2)[2] == 0):
         return 50
     else:
         return x2
