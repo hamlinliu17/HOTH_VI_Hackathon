@@ -15,49 +15,49 @@ def results():
     newValue = winner(home_team, away_team)
     value = int(newValue)
     if value == 0:
-        return "Arsenal"
+        return "Arsenal wins"
     elif  value ==  1:
-        return "Bournemoth"
+        return "Bournemoth wins"
     elif value == 3:
-        return "Burnley"
+        return "Burnley wins"
     elif value == 5:
-        return "Chelsea"
+        return "Chelsea wins"
     elif value == 6:
-        return "Crystal Palace"
+        return "Crystal Palace wins"
     elif value == 7:
-        return "Everton"
+        return "Everton wins"
     elif value == 24:
-        return "Hull City"
+        return "Hull City wins"
     elif value == 10:
-        return "Leicester City"
+        return "Leicester City wins"
     elif value == 11:
-        return "Liverpool"
+        return "Liverpool wins"
     elif value == 12:
-        return "Manchester City"
+        return "Manchester City wins"
     elif value == 13:
-        return "Manchester United"
+        return "Manchester United wins"
     elif value == 25:
-        return "Middlesborough"
+        return "Middlesborough wins"
     elif value == 15:
-        return "Southampton"
+        return "Southampton wins"
     elif value == 20:
-        return "Stoke City"
+        return "Stoke City wins"
     elif value == 26:
-        return "Sunderland"
+        return "Sunderland wins"
     elif value == 21:
-        return "Swansea City"
+        return "Swansea City wins"
     elif value == 16:
-        return "Tottenham"
+        return "Tottenham wins"
     elif value == 2:
-        return "Watford"
+        return "Watford wins"
     elif value == 23:
-        return "West Bromwich"
+        return "West Bromwich wins"
     elif value == 18:
-        return "West Ham United"
+        return "West Ham United wins"
     elif value == 2:
-        return "Brighton"
+        return "Brighton wins"
     elif value == 9:
-        return "Huddersfeld"
+        return "Huddersfeld wins"
     elif value == 50:
         return "draw"
     else:
