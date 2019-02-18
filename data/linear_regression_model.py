@@ -22,6 +22,6 @@ def winner(x1,x2):
     if(predict(x1,x2) == 1):
         return x1
     elif(predict(x1,x2) == 0):
-        return 0
+        return 50
     else:
         return x2
