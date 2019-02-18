@@ -12,7 +12,8 @@ def index():
 def results():
     home_team = request.args.get('home_team')
     away_team = request.args.get('away_team')
-    value = winner(home_team, away_team)
+    newValue = winner(home_team, away_team)
+    value = int(newValue)
     if value == 0:
         return "Arsenal"
     elif  value ==  1:
