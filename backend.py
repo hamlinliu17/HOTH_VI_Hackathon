@@ -15,51 +15,51 @@ def results():
     newValue = winner(home_team, away_team)
     value = int(newValue)
     if value == 0:
-        return "Arsenal wins"
+        return "Arsenal Wins!"
     elif  value ==  1:
-        return "Bournemoth wins"
+        return "Bournemoth Wins!"
     elif value == 3:
-        return "Burnley wins"
+        return "Burnley Wins!"
     elif value == 5:
-        return "Chelsea wins"
+        return "Chelsea Wins!"
     elif value == 6:
-        return "Crystal Palace wins"
+        return "Crystal Palace Wins!"
     elif value == 7:
-        return "Everton wins"
+        return "Everton Wins!"
     elif value == 24:
-        return "Hull City wins"
+        return "Hull City Wins!"
     elif value == 10:
-        return "Leicester City wins"
+        return "Leicester City Wins!"
     elif value == 11:
-        return "Liverpool wins"
+        return "Liverpool Wins!"
     elif value == 12:
-        return "Manchester City wins"
+        return "Manchester City Wins!"
     elif value == 13:
-        return "Manchester United wins"
+        return "Manchester United Wins!"
     elif value == 25:
-        return "Middlesborough wins"
+        return "Middlesborough Wins!"
     elif value == 15:
-        return "Southampton wins"
+        return "Southampton Wins!"
     elif value == 20:
-        return "Stoke City wins"
+        return "Stoke City Wins!"
     elif value == 26:
-        return "Sunderland wins"
+        return "Sunderland Wins!"
     elif value == 21:
-        return "Swansea City wins"
+        return "Swansea City Wins!"
     elif value == 16:
-        return "Tottenham wins"
+        return "Tottenham Wins!"
     elif value == 2:
-        return "Watford wins"
+        return "Watford Wins!"
     elif value == 23:
-        return "West Bromwich wins"
+        return "West Bromwich Wins!"
     elif value == 18:
-        return "West Ham United wins"
+        return "West Ham United Wins!"
     elif value == 2:
-        return "Brighton wins"
+        return "Brighton Wins!"
     elif value == 9:
-        return "Huddersfeld wins"
+        return "Huddersfeld Wins!"
     elif value == 50:
-        return "draw"
+        return "Draw!"
     else:
         return value
 
