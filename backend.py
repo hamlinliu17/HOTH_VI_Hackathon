@@ -23,8 +23,8 @@ def results():
     newValue = winner(home_team, away_team)
     value = int(newValue)
     goalsList = predict(home_team, away_team)
-    team1Goal = goalsList[0]
-    team2Goal = goalsList[1]
+    team1Goal = int(goalsList[0])
+    team2Goal = int(goalsList[1])
     if(away_team == home_team):
         return "Invalid Input"
     if(team1Goal > team2Goal):
